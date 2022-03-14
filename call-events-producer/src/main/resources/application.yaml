@@ -1,0 +1,10 @@
+application:
+  name: "call-events-producer"
+
+server:
+  port: 8081
+
+kafka:
+  bootstrapAddress: "localhost:9092"
+  callEventsTopicName: "events.TestEventV1"
+
